@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="main-header">
       <nav>
         <h1>📘 The Code Magazine</h1>
         <a href="BLOG.HTML">Blog</a>
@@ -21,7 +21,7 @@
 
         <h2>The basic language of the web: HTML</h2>
         <img src="img/laura-jones.jpg" alt="Laura Jones" width="50" height="50" />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
         <img src="img/post-img.jpg" alt="html code on the screen" width="500" , height="200" />
       </header>
         <p>
@@ -68,26 +68,28 @@
       </ul>
     </article>
     <aside>
-      <ul>
+      <ul class="related">
         <li>
           <img src="img/related-1.jpg" alt="img1" width="75" height="75">
           <a href="#">How to learn web development</a>
-          <p>by Jonas Schmedtman</p>
+          <p class="related-author">by Jonas Schmedtman</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="img2" width="75" height="75">
           <a href="#">The unknown powers of CSS</a>
-          <p>by Jonas Schmedtman</p>
+          <p class="related-author">by Jim DIllon</p>
         </li>
         <li>
           <img src="img/related-3.jpg" alt="img3" width="75" height="75">
           <a href="#">Why Javascript is awesome</a>
-          <p>by Jonas Schmedtman</p>
+          <p class="related-author">by Matilda</p>
         </li>
       </ul>
     </aside>
     <footer>
-      Copyrights &copy; by The Code Magazine
+      <p id="copyright">
+        Copyrights &copy; by The Code Magazine
+      </p>
     </footer>
   </body>
 </html>
