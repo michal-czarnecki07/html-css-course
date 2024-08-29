@@ -38,19 +38,34 @@
         background-color: #ddd;
         font-size: 40px;
         margin: 40px;
+        /* height: 500px; */
 
         /* CSS GRID */
+        display: grid;
+        display: none;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr;  */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
       }
 
       .container--2 {
         /* STARTER */
+        /* display: none; */
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
         margin: 100px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        gap: 30px;
+        align-content: center;
+        justify-content: center;
 
         /* CSS GRID */
       }
